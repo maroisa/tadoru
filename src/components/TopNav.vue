@@ -1,6 +1,17 @@
+<script setup>
+import { inject } from 'vue';
+
+const sidenavActive = inject("sidenavActive")
+
+function onButtonPressed(){
+    sidenavActive.value = !sidenavActive.value
+}
+
+</script>
+
 <template>
     <header class="row">
-        <button>LEFT</button>
+        <button v-on:click="onButtonPressed">LEFT</button>
         <h2>Tadoru</h2>
     </header>
 </template>

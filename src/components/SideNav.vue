@@ -1,3 +1,12 @@
+<script setup>
+import { inject } from 'vue';
+
+const sidenavActive = inject("sidenavActive")
+
+</script>
+
 <template>
-    Sidebar
+    <div v-show="sidenavActive">
+        Sidebar
+    </div>
 </template>
