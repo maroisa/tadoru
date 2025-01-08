@@ -5,14 +5,8 @@ import SideNav from "./SideNav.vue"
 </script>
 
 <template>
-    <main class="grow">
+    <main class="overflowy row">
         <SideNav />
         <Editor />
     </main>
 </template>
-
-<style scoped>
-
-.grow { overflow-y: auto; }
-
-</style>

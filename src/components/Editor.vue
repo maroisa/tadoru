@@ -10,11 +10,10 @@
 <style scoped>
 
 .container {
-    padding: 1rem;
+    padding: 1rem 0;
     width: 720px;
     margin-left: auto;
     margin-right: auto;
-    overflow-y: auto;
 }
 
 .container > *:focus {
